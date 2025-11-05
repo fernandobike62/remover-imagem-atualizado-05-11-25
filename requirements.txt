@@ -4,3 +4,6 @@ pillow
 python-magic
 flask-cors
 gunicorn
+onnxruntime
+opencv-python-headless
+numpy
