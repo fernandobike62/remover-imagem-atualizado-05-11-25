@@ -1,4 +1,6 @@
-fastapi
-uvicorn
+flask
 rembg
 pillow
+python-magic
+flask-cors
+gunicorn
