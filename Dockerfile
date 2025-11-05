@@ -6,7 +6,8 @@ WORKDIR /app
 
 # Instalar dependências do sistema necessárias para rembg
 # O rembg requer libgl1-mesa-glx para algumas operações
-RUN apt-get update && apt-get install -y \
+# Usando --fix-missing e --no-install-recommends para tentar evitar problemas de dependência
+RUN apt-get update --fix-missing && apt-get install -y --no-install-recommends \
     libgl1-mesa-glx \
     && rm -rf /var/lib/apt/lists/*
 
