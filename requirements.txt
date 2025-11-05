@@ -1,4 +1,4 @@
-Flask
+fastapi
+uvicorn
 rembg
-Pillow
-gunicorn # Servidor WSGI para produção
+pillow
