@@ -1,9 +1,3 @@
-flask
-rembg
-pillow
-python-magic
-flask-cors
-gunicorn
-onnxruntime
-opencv-python-headless
-numpy
+Flask
+rembg[cli]
+Pillow
